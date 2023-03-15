@@ -101,16 +101,3 @@ about:
 # See
 # https://docs.conda.io/projects/conda-build for
 # more information about meta.yaml
-
-extra:
-
-#  skip-lints:
-#    - invalid_url
-  only-lint:
-    - missing_source
-
-  anaconda-services:
-   ref: https://anaconda.zendesk.com/agent/tickets/32963
-   recipe-maintainers:
-      - ianaobi
-      - bradley
