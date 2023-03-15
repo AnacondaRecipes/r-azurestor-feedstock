@@ -30,7 +30,8 @@ requirements:
     - {{ posix }}zip               # [win]
 
   host:
-    - r-base
+    - r-base {{ r_version }}
+#    - r-base
     - r-azurermr >=2.3.0
     - r-r6
     - r-httr >=1.4.0
